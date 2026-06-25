@@ -1,0 +1,1764 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Simran Jaiswal — Web Developer, Frontend Developer & Data Science Student. Explore my portfolio showcasing projects, skills, certifications, and professional experience."
+    />
+    <meta
+      name="keywords"
+      content="Simran Jaiswal, Web Developer, Frontend Developer, Data Science, Portfolio, React.js, JavaScript, Python"
+    />
+    <meta name="author" content="Simran Jaiswal" />
+    <meta property="og:title" content="Simran Jaiswal | Portfolio" />
+    <meta
+      property="og:description"
+      content="Passionate about transforming ideas into responsive, user-friendly, and impactful digital experiences."
+    />
+    <meta property="og:type" content="website" />
+    <title>Simran Jaiswal | Web Developer &amp; Data Science Student</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ==================== PRELOADER ==================== -->
+    <div class="preloader">
+      <div class="preloader-content">
+        <div class="preloader-logo">SJ</div>
+        <div class="preloader-bar">
+          <div class="preloader-progress"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar" id="navbar">
+      <div class="navbar-container">
+        <a href="#home" class="logo">SJ</a>
+        <div class="nav-links" id="navLinks">
+          <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li> <a href="resume.pdf" class="btn btn-secondary">
+             <i class="fas fa-download"></i> Download Resume
+             </a></li>   
+          </ul>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="home" class="hero">
+      <div class="hero-bg-animation"></div>
+      <div class="hero-container">
+        <div class="hero-content reveal">
+          <p class="hero-greeting">Hello, I'm</p>
+          <h1 class="hero-name">Simran Jaiswal</h1>
+          <div class="hero-title-wrapper">
+            <div class="hero-title">
+              <span id="typed-text"></span><span class="cursor">|</span>
+            </div>
+          </div>
+          <p class="hero-description">
+            I am Simran Jaiswal, a passionate Web Developer and Computer Science
+            student specializing in Data Science. I have hands-on experience
+            building responsive web applications using HTML, CSS, JavaScript,
+            React.js, Python, and modern development tools. Through internships
+            and academic projects, I have developed strong skills in frontend
+            development, UI design, API integration, and problem-solving. I
+            enjoy transforming ideas into engaging digital experiences that
+            combine functionality with clean design. Currently, I am seeking
+            opportunities to contribute to real-world projects, expand my
+            technical expertise, and grow as a software professional. Let's
+            build innovative solutions together.
+          </p>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number" data-target="Fresher">Fresher</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="6">0</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="4">0</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-target="1">0</span>
+              <span class="stat-label">Awards</span>
+            </div>
+          </div>
+          <div class="hero-buttons">
+  <a href="#projects" class="btn btn-primary">
+    <i class="fas fa-rocket"></i> View Projects
+  </a>
+
+  <a href="resume.pdf" target="_blank" class="btn btn-secondary">
+    <i class="fas fa-eye"></i> View Resume
+  </a>
+
+      <a href="#contact" class="btn btn-secondary"
+              ><i class="fas fa-envelope"></i> Contact Me</a
+            >
+          </div>
+        </div>
+        <div class="hero-image-wrapper reveal" data-delay="200">
+          <div class="hero-image-container">
+            <img src="profile_photo.jpg.png" alt="Simran Jaiswal" />
+          </div>
+          <div class="floating-badge badge-1">
+            <i class="fab fa-react"></i> Frontend Development
+          </div>
+          <div class="floating-badge badge-2">
+            <i class="fab fa-python"></i> Data Science
+          </div>
+          <div class="floating-badge badge-3">
+            <i class="fab fa-js-square"></i> Web Development
+          </div>
+          <div class="floating-badge badge-4">
+            <i class="fas fa-database"></i> Python
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll-indicator">
+        <a href="#about">
+          <div class="scroll-arrow">
+            <i class="fas fa-chevron-down"></i>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section id="about" class="about">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Get To Know</span>
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-container">
+        <div class="about-image-side reveal">
+          <div class="about-image-card">
+            <img src="profile_photo.jpg.png" alt="Simran Jaiswal" />
+          </div>
+        </div>
+        <div class="about-content-side reveal" data-delay="200">
+          <div class="about-text">
+            <p>
+              I am currently pursuing a Bachelor of Technology in Computer
+              Science and Engineering with a specialization in Data Science at
+              Buddha Institute of Technology, Gorakhpur. My interests lie in web
+              development, frontend engineering, and creating user-centric
+              digital experiences.
+            </p>
+            <p>
+              I work with technologies such as HTML, CSS, JavaScript, React.js,
+              Python, Java, MySQL, MongoDB, Git, and GitHub. Through internships
+              at Syntecxhub, EduSkills Academy, Internship Studio, and InAmigos
+              Foundation, I have gained practical exposure to software
+              development, analytics, design, and collaboration.
+            </p>
+            <p>
+              My academic achievements and project portfolio demonstrate my
+              commitment to continuous learning and technical excellence. I
+              enjoy solving problems, exploring emerging technologies, and
+              building products that create meaningful impact.
+            </p>
+          </div>
+          <div class="about-details">
+            <div class="detail-item">
+              <i class="fas fa-user"></i>
+              <div>
+                <span class="detail-label">Name</span>
+                <span class="detail-value">Simran Jaiswal</span>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <span class="detail-label">Location</span>
+                <span class="detail-value">Gorakhpur, UP, India</span>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <span class="detail-label">Email</span>
+                <span class="detail-value">simranjaiswal801@gmail.com</span>
+              </div>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <span class="detail-label">Degree</span>
+                <span class="detail-value">B.Tech CSE (Data Science)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-mission-vision reveal" data-delay="300">
+        <div class="mv-card">
+          <div class="mv-icon"><i class="fas fa-bullseye"></i></div>
+          <h3>Mission</h3>
+          <p>
+            To create innovative, responsive, and user-focused digital solutions
+            while continuously learning and contributing value through
+            technology.
+          </p>
+        </div>
+        <div class="mv-card">
+          <div class="mv-icon"><i class="fas fa-eye"></i></div>
+          <h3>Vision</h3>
+          <p>
+            To become a highly skilled software engineer and technology leader
+            capable of building impactful products that improve lives and solve
+            real-world challenges.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EXPERIENCE SECTION ==================== -->
+    <section id="experience" class="experience">
+      <div class="section-header reveal">
+        <span class="section-subtitle">My Journey</span>
+        <h2 class="section-title">Work Experience</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-line"></div>
+
+        <!-- Experience 1: Syntecxhub -->
+        <div class="timeline-item reveal" data-delay="100">
+          <div class="timeline-marker">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div class="company-logo">
+                <img src="internships/syntexhub.jpg" alt="Syntecxhub" />
+              </div>
+              <div class="timeline-info">
+                <h3>Web Development Intern</h3>
+                <span class="company-name">Syntecxhub</span>
+                <div class="timeline-meta">
+                  <span class="meta-item"
+                    ><i class="fas fa-clock"></i> Internship</span
+                  >
+                  <span class="meta-item"
+                    ><i class="fas fa-map-marker-alt"></i> Remote</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="timeline-body">
+              <h4>Responsibilities</h4>
+              <ul class="responsibilities">
+                <li>
+                  Developed responsive web pages using HTML, CSS, JavaScript,
+                  and React.
+                </li>
+                <li>Maintained and improved website UI components.</li>
+                <li>
+                  Collaborated with development teams on feature implementation.
+                </li>
+                <li>Optimized website responsiveness and usability.</li>
+              </ul>
+              <h4>Achievements</h4>
+              <ul class="achievements">
+                <li>
+                  Improved cross-device responsiveness across multiple pages.
+                </li>
+                <li>
+                  Contributed to frontend enhancements and website performance
+                  optimization.
+                </li>
+              </ul>
+              <div class="experience-link">
+</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 2: EduSkills -->
+        <div class="timeline-item reveal" data-delay="200">
+          <div class="timeline-marker">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div class="company-logo">
+                <img src="internships/eduskill.png" alt="EduSkills Academy" />
+              </div>
+              <div class="timeline-info">
+                <h3>Python Full Stack Intern</h3>
+                <span class="company-name">EduSkills Academy</span>
+                <div class="timeline-meta">
+                  <span class="meta-item"
+                    ><i class="fas fa-clock"></i> Internship</span
+                  >
+                  <span class="meta-item"
+                    ><i class="fas fa-map-marker-alt"></i> Remote</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="timeline-body">
+              <h4>Responsibilities</h4>
+              <ul class="responsibilities">
+                <li>
+                  Built responsive applications using Python, React.js, HTML,
+                  CSS, and JavaScript.
+                </li>
+                <li>Worked with API integration and debugging.</li>
+                <li>Enhanced application functionality and performance.</li>
+                <li>Assisted in frontend-backend connectivity.</li>
+              </ul>
+              <h4>Achievements</h4>
+              <ul class="achievements">
+                <li>Successfully developed multiple application modules.</li>
+                <li>
+                  Improved application stability through debugging and
+                  optimization.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 3: Internship Studio -->
+        <div class="timeline-item reveal" data-delay="300">
+          <div class="timeline-marker">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div class="company-logo">
+                <img src="internships/istudio.jpg" alt="Internship Studio" />
+              </div>
+              <div class="timeline-info">
+                <h3>Data Analytics Intern</h3>
+                <span class="company-name">Internship Studio</span>
+                <div class="timeline-meta">
+                  <span class="meta-item"
+                    ><i class="fas fa-clock"></i> Internship</span
+                  >
+                  <span class="meta-item"
+                    ><i class="fas fa-map-marker-alt"></i> Remote</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="timeline-body">
+              <h4>Responsibilities</h4>
+              <ul class="responsibilities">
+                <li>Worked with Python, Pandas, Excel, and Matplotlib.</li>
+                <li>Performed data analysis and visualization tasks.</li>
+                <li>Learned analytical workflows and reporting techniques.</li>
+                <li>Completed assigned analytics projects.</li>
+              </ul>
+              <h4>Achievements</h4>
+              <ul class="achievements">
+                <li>
+                  Gained practical experience in data analytics and
+                  visualization.
+                </li>
+                <li>
+                  Successfully completed internship training and project
+                  assignments.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 4: InAmigos -->
+        <div class="timeline-item reveal" data-delay="400">
+          <div class="timeline-marker">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div class="company-logo">
+                <img
+                  src="internships/inamingos.jpg"
+                  alt="InAmigos Foundation"
+                />
+              </div>
+              <div class="timeline-info">
+                <h3>Graphic Design Intern</h3>
+                <span class="company-name">InAmigos Foundation</span>
+                <div class="timeline-meta">
+                  <span class="meta-item"
+                    ><i class="fas fa-clock"></i> Internship</span
+                  >
+                  <span class="meta-item"
+                    ><i class="fas fa-map-marker-alt"></i> Remote</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="timeline-body">
+              <h4>Responsibilities</h4>
+              <ul class="responsibilities">
+                <li>Created marketing and branding visuals.</li>
+                <li>Collaborated with cross-functional teams.</li>
+                <li>Assisted in creative campaign execution.</li>
+                <li>Delivered visual assets on schedule.</li>
+              </ul>
+              <h4>Achievements</h4>
+              <ul class="achievements">
+                <li>
+                  Increased audience engagement through creative visual content.
+                </li>
+                <li>Delivered projects ahead of deadlines.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EDUCATION SECTION ==================== -->
+    <section id="education" class="education">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Academic Background</span>
+        <h2 class="section-title">Education</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="education-card reveal" data-delay="100">
+        <div class="education-header">
+          <div class="education-icon">
+            <i class="fas fa-university"></i>
+          </div>
+          <div class="education-info">
+            <h3>Bachelor of Technology (B.Tech)</h3>
+            <p class="education-specialization">
+              Computer Science & Engineering (Data Science)
+            </p>
+            <p class="education-institution">
+              <i class="fas fa-building"></i> Buddha Institute of Technology,
+              Gorakhpur
+            </p>
+            <div class="education-meta">
+              <span><i class="fas fa-calendar-alt"></i> 2023 – 2027</span>
+              <span><i class="fas fa-clock"></i> Full-Time</span>
+            </div>
+          </div>
+        </div>
+        <div class="education-body">
+          <h4>Highlights</h4>
+          <ul class="education-highlights">
+            <li>
+              <i class="fas fa-check-circle"></i> Specialized in Data Science
+              and Software Development.
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i> Studied Programming,
+              Databases, DSA, and Web Technologies.
+            </li>
+            <li>
+              <i class="fas fa-check-circle"></i> Recipient of Academic Merit
+              Award for academic excellence.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <section id="projects" class="projects">
+      <div class="section-header reveal">
+        <span class="section-subtitle">My Work</span>
+        <h2 class="section-title">Projects</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-filter reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web Apps</button>
+        <button class="filter-btn" data-filter="front">Frontend</button>
+        <button class="filter-btn" data-filter="ml">ML / Data</button>
+        <button class="filter-btn" data-filter="other">Other</button>
+      </div>
+      <div class="projects-grid">
+        <!-- Project 1: NewsNova AI -->
+        <div class="project-card reveal" data-category="web" data-delay="100">
+          <div class="project-image">
+            <div class="project-icon-placeholder">
+              <i class="fas fa-newspaper"></i>
+            </div>
+            <div class="project-overlay">
+              <span class="project-year">2025</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">React Web Application</span>
+            </div>
+            <h3 class="project-title">NewsNova AI</h3>
+            <p class="project-description">
+              An AI-powered news summarization platform built using React.js.
+              The application fetches real-time news using APIs and generates
+              concise summaries for users.
+            </p>
+            <ul class="project-outcomes">
+              <li><i class="fas fa-check"></i> Integrated live news APIs</li>
+              <li><i class="fas fa-check"></i> Built responsive UI</li>
+              <li><i class="fas fa-check"></i> Improved news readability</li>
+              <li><i class="fas fa-check"></i> Enhanced user engagement</li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-badge">React.js</span>
+              <span class="tech-badge">JavaScript</span>
+              <span class="tech-badge">HTML</span>
+              <span class="tech-badge">CSS</span>
+              <span class="tech-badge">APIs</span>
+            </div>
+            <div class="experience-link">
+ <div class="experience-link">
+  <a href="https://github.com/simranjaiswal801/newsnova-ai" target="_blank" class="github-btn">
+    <i class="fab fa-github"></i> View Project
+  </a>
+</div>
+</div>
+          </div>
+        </div>
+
+        <!-- Project 2: CareerMap -->
+        <div class="project-card reveal" data-category="front" data-delay="200">
+          <div class="project-image">
+            <div class="project-icon-placeholder">
+              <i class="fas fa-map-signs"></i>
+            </div>
+            <div class="project-overlay">
+              <span class="project-year">2025</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Web Application</span>
+            </div>
+            <h3 class="project-title">CareerMap – Career Roadmap Generator</h3>
+            <p class="project-description">
+              An interactive career guidance platform that generates
+              personalized learning roadmaps and career recommendations based on
+              user inputs.
+            </p>
+            <ul class="project-outcomes">
+              <li>
+                <i class="fas fa-check"></i> Created dynamic recommendation
+                system
+              </li>
+              <li><i class="fas fa-check"></i> Built responsive UI</li>
+              <li><i class="fas fa-check"></i> Improved user experience</li>
+              <li><i class="fas fa-check"></i> Simplified career planning</li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-badge">React.js</span>
+              <span class="tech-badge">JavaScript</span>
+              <span class="tech-badge">HTML</span>
+              <span class="tech-badge">CSS</span>
+            </div>
+            <div class="experience-link">
+  <a href="https://github.com/simranjaiswal801/Career-Roadmap-Generator" target="_blank" class="github-btn">
+    <i class="fab fa-github"></i> View Project
+  </a>
+          </div>
+        </div>
+        </div>
+
+        <!-- Project 3: LinkUp -->
+        <div class="project-card reveal" data-category="web" data-delay="300">
+          <div class="project-image">
+            <div class="project-icon-placeholder">
+              <i class="fas fa-video"></i>
+            </div>
+            <div class="project-overlay">
+              <span class="project-year">2025</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Web Application</span>
+            </div>
+            <h3 class="project-title">LinkUp – Video Conferencing Platform</h3>
+            <p class="project-description">
+              A video conferencing platform focused on virtual communication
+              with a clean and intuitive interface.
+            </p>
+            <ul class="project-outcomes">
+              <li><i class="fas fa-check"></i> Built meeting interface</li>
+              <li>
+                <i class="fas fa-check"></i> Improved communication
+                accessibility
+              </li>
+              <li><i class="fas fa-check"></i> Developed responsive design</li>
+              <li><i class="fas fa-check"></i> Enhanced usability</li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-badge">React.js</span>
+              <span class="tech-badge">JavaScript</span>
+              <span class="tech-badge">HTML</span>
+              <span class="tech-badge">CSS</span>
+            </div>
+            <div class="experience-link">
+  <a href="https://github.com/simranjaiswal801/Link-Up" target="_blank" class="github-btn">
+    <i class="fab fa-github"></i> View Project
+  </a>
+  </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Sentiment Analysis -->
+        <div class="project-card reveal" data-category="ml" data-delay="100">
+          <div class="project-image">
+            <div class="project-icon-placeholder">
+              <i class="fas fa-brain"></i>
+            </div>
+            <div class="project-overlay">
+              <span class="project-year">2025</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Machine Learning Project</span>
+            </div>
+            <h3 class="project-title">Movie Review Sentiment Analysis</h3>
+            <p class="project-description">
+              A Python-based sentiment analysis model that classifies movie
+              reviews as positive or negative using machine learning techniques.
+            </p>
+            <ul class="project-outcomes">
+              <li><i class="fas fa-check"></i> Performed text preprocessing</li>
+              <li>
+                <i class="fas fa-check"></i> Trained sentiment classification
+                model
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Improved review analysis accuracy
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Visualized analytical results
+              </li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">Pandas</span>
+              <span class="tech-badge">Jupyter</span>
+              <span class="tech-badge">ML</span>
+            </div>
+            <div class="experience-link">
+  <a href="https://github.com/simranjaiswal801/CodeAlpha_IMDb-Movie-Review-Sentiment-Analysis" target="_blank" class="github-btn">
+    <i class="fab fa-github"></i> View Project
+  </a></div>
+          </div>
+        </div>
+
+        <!-- Project 5: Hotel Management -->
+        <div class="project-card reveal" data-category="other" data-delay="200">
+          <div class="project-image">
+            <div class="project-icon-placeholder">
+              <i class="fas fa-hotel"></i>
+            </div>
+            <div class="project-overlay">
+              <span class="project-year">Academic</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Mini Project</span>
+            </div>
+            <h3 class="project-title">Hotel Management System</h3>
+            <p class="project-description">
+              A hotel booking and customer management system for handling
+              reservations and records efficiently.
+              Enhanced user experience through intuitive interface and streamlined booking process.
+            </p>
+             <ul class="project-outcomes">
+              <li><i class="fas fa-check"></i> Enhanced user experience</li>
+              <li>
+                <i class="fas fa-check"></i> Automated booking and record management
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Streamlined booking process
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Improved operational efficiency
+              </li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-badge">HTML5</span>
+              <span class="tech-badge">CSS3</span>
+              <span class="tech-badge">JavaScript</span>
+            </div>
+            <div class="experience-link">
+  <a href="https://github.com/simranjaiswal801/Hotel-Management-System" target="_blank" class="github-btn">
+    <i class="fab fa-github"></i> View Project
+  </a></div>
+          </div>
+        </div>
+
+        <!-- Project 6: Python Project -->
+        <div class="project-card reveal" data-category="ml" data-delay="300">
+          <div class="project-image">
+            <div class="project-icon-placeholder">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="project-overlay">
+              <span class="project-year">Personal</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Python QR Code Generator</span>
+            </div>
+            <h3 class="project-title">Python QR Code Generator</h3>
+            <p class="project-description">
+              A simple Python application for generating QR codes from text input.
+            </p>
+             <ul class="project-outcomes">
+              <li><i class="fas fa-check"></i> Simple and efficient QR code generation</li>
+              <li>
+                <i class="fas fa-check"></i> User-friendly interface for inputting text
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Supports various QR code formats and customization options
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Allows saving generated QR codes as image files for easy sharing and printing
+              </li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">Tkinter</span>
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">Pillow</span>
+              <span class="tech-badge">qrcode</span>
+            </div>
+            <div class="experience-link">
+  <a href="https://github.com/simranjaiswal801/Python-QR-Code-Generator" target="_blank" class="github-btn">
+    <i class="fab fa-github"></i> View Project
+  </a>
+          </div>
+        </div>
+      </div>
+
+        <!-- Project 7: Blog App -->
+        <div class="project-card reveal" data-category="web" data-delay="300">
+          <div class="project-image">
+            <div class="project-icon-placeholder">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="project-overlay">
+              <span class="project-year">Personal</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Blog App</span>
+            </div>
+            <h3 class="project-title">Blog App</h3>
+            <p class="project-description">
+              A simple blog application built with Frontend, Backend and Database.
+            </p>
+             <ul class="project-outcomes">
+              <li><i class="fas fa-check"></i> You can create and manage blog posts</li>
+              <li>
+                <i class="fas fa-check"></i> User-friendly interface for reading and writing blogs
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Supports user authentication and authorization for secure access
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Allows users to comment on and interact with blog posts, fostering community engagement
+              </li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-badge">React.js</span>
+              <span class="tech-badge">CSS</span>
+              <span class="tech-badge">Node.js</span>
+              <span class="tech-badge">Express.js</span>
+              <span class="tech-badge">MongoDB</span>
+            </div>
+            <div class="experience-link">
+  <a href="https://github.com/simranjaiswal801/BlogApp" target="_blank" class="github-btn">
+    <i class="fab fa-github"></i> View Project
+  </a>
+          </div>
+        </div>
+      </div>
+
+         <!-- Project 8: Portfolio Website -->
+        <div class="project-card reveal" data-category="web" data-delay="300">
+          <div class="project-image">
+            <div class="project-icon-placeholder">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="project-overlay">
+              <span class="project-year">Personal</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Portfolio Project</span>
+            </div>
+            <h3 class="project-title">Personal Portfolio Website</h3>
+            <p class="project-description">
+            Personal Portfolio Website is a modern, responsive, and interactive web application designed to showcase my skills, projects, certifications, achievements, and professional journey. It serves as a digital resume, allowing recruiters and visitors to explore my technical expertise, work experience, and accomplishments through an engaging user interface.
+            </p>
+             <ul class="project-outcomes">
+              <li><i class="fas fa-check"></i>Fully responsive design for desktop, tablet, and mobile devices.</li>
+              <li>
+                <i class="fas fa-check"></i> Resume viewing and downloading functionality.
+              </li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-badge">HTML</span>
+              <span class="tech-badge">CSS</span>
+              <span class="tech-badge">JavaScript</span>
+            </div>
+            <div class="experience-link">
+  <a href="https://github.com/simranjaiswal801/Simra-s-Portfolio" target="_blank" class="github-btn">
+    <i class="fab fa-github"></i> View Project
+  </a>
+          </div>
+        </div>
+      </div>
+
+       <!-- Project 9: EDA and Data Visualization -->
+        <div class="project-card reveal" data-category="ml" data-delay="300">
+          <div class="project-image">
+            <div class="project-icon-placeholder">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="project-overlay">
+              <span class="project-year">Personal</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Data Analysis and Visualization using Python</span>
+            </div>
+            <h3 class="project-title">EDA and Data Visualization</h3>
+            <p class="project-description">
+              A project focused on Exploratory Data Analysis (EDA) and data visualization using Python libraries such as Pandas, Matplotlib, and Seaborn. The project involves analyzing datasets, identifying patterns, and creating visual representations to derive insights.
+            </p>
+             <ul class="project-outcomes">
+              <li><i class="fas fa-check"></i> Conducted comprehensive Exploratory Data Analysis (EDA) </li>
+              <li>
+                <i class="fas fa-check"></i> Created insightful visualizations to identify trends and patterns in the data
+              </li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">Pandas</span>
+              <span class="tech-badge">Matplotlib</span>
+              <span class="tech-badge">Google Colab</span>
+
+            </div>
+            <div class="experience-link">
+  <a href="https://github.com/simranjaiswal801/CodeAlpha_Netflix-Data-Analysis-and-Visualization" target="_blank" class="github-btn">
+    <i class="fab fa-github"></i> View Project
+  </a>
+          </div>
+        </div>
+      </div>
+
+  <!-- Project 10: Data Cleaning and SQL Table creation -->
+        <div class="project-card reveal" data-category="ml" data-delay="300">
+          <div class="project-image">
+            <div class="project-icon-placeholder">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="project-overlay">
+              <span class="project-year">Personal</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Data Cleaning </span>
+            </div>
+            <h3 class="project-title">Data Cleaning and SQL Table Creation</h3>
+            <p class="project-description">
+              A project focused on cleaning and preprocessing datasets, followed by creating structured SQL tables for efficient data storage and retrieval.
+            </p>
+             <ul class="project-outcomes">
+              <li><i class="fas fa-check"></i> Performed comprehensive data cleaning to handle missing values, outliers, and inconsistencies</li>
+              <li>
+                <i class="fas fa-check"></i> Applied data transformation techniques to prepare the dataset for analysis and SQL table creation
+              </li>
+              
+            </ul>
+            <div class="project-tech">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">Pandas</span>
+              <span class="tech-badge">SQL</span>
+              <span class="tech-badge">Jupyter Notebook</span>
+            </div>
+            <div class="experience-link">
+  <a href="https://github.com/simranjaiswal801/Data-Preparation-and-SQL-Analysis" target="_blank" class="github-btn">
+    <i class="fab fa-github"></i> View Project
+  </a>
+          </div>
+        </div>
+      </div>
+
+      
+  <!-- Project 11: House Price Predictor -->
+        <div class="project-card reveal" data-category="ml" data-delay="300">
+          <div class="project-image">
+            <div class="project-icon-placeholder">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="project-overlay">
+              <span class="project-year">Personal</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">House price predictor </span>
+            </div>
+            <h3 class="project-title">Smart House Price Predictor</h3>
+            <p class="project-description">
+              Smart House Price Predictor is a responsive web application developed using HTML, CSS, and JavaScript that helps users estimate the price of a house based on key property details such as area, number of bedrooms (BHK), and bathrooms.
+             <ul class="project-outcomes">
+              <li><i class="fas fa-check"></i>Multi-feature price prediction (Area, BHK, Bathrooms) </li>
+              <li> <i class="fas fa-check"></i>Clean and responsive user interface for all devices.</li>
+              <li> <i class="fas fa-check"></i> Real-time calculation using JavaScript</li>
+              
+            </ul>
+            <div class="project-tech">
+              <span class="tech-badge">HTML5</span>
+              <span class="tech-badge">CSS</span>
+              <span class="tech-badge">JavaScript</span>
+              <span class="tech-badge">Charts.js</span>
+            </div>
+            <div class="experience-link">
+  <a href="https://github.com/simranjaiswal801/Data-Preparation-and-SQL-Analysis" target="_blank" class="github-btn">
+    <i class="fab fa-github"></i> View Project
+  </a>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Project 12: Landing page-->
+        <div class="project-card reveal" data-category="front" data-delay="300">
+          <div class="project-image">
+            <div class="project-icon-placeholder">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="project-overlay">
+              <span class="project-year">Assignment</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span class="tag">Landing Page</span>
+            </div>
+            <h3 class="project-title">Chai Culture</h3>
+            <p class="project-description">
+              A landing page for a tea brand, showcasing products, features, and promotions. The design emphasizes visual appeal and user engagement.
+            </p>
+             <ul class="project-outcomes">
+              <li><i class="fas fa-check"></i> Created a visually appealing landing page for a tea brand</li>
+              <li>
+                <i class="fas fa-check"></i>  Implemented responsive design for optimal viewing on various devices
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Enhanced user engagement through interactive elements and clear call-to-action buttons
+              </li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-badge">HTML</span>
+              <span class="tech-badge">CSS</span>
+              <span class="tech-badge">JavaScript</span>
+            </div>
+            <div class="experience-link">
+  <a href="https://github.com/simranjaiswal801/chai-culture" target="_blank" class="github-btn">
+    <i class="fab fa-github"></i> View Project
+  </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section id="skills" class="skills">
+      <div class="section-header reveal">
+        <span class="section-subtitle">What I Know</span>
+        <h2 class="section-title">Skills & Expertise</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-container">
+        <!-- Frontend Development -->
+        <div class="skill-category reveal" data-delay="100">
+          <div class="category-header">
+            <div class="category-icon"><i class="fas fa-code"></i></div>
+            <h3 class="category-title">Frontend Development</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info"><span>HTML</span><span>95%</span></div>
+              <div class="skill-bar">
+                <div
+                  class="skill-progress"
+                  data-width="95"
+                  style="width: 0%"
+                ></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>CSS</span><span>92%</span></div>
+              <div class="skill-bar">
+                <div
+                  class="skill-progress"
+                  data-width="92"
+                  style="width: 0%"
+                ></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>JavaScript</span><span>88%</span>
+              </div>
+              <div class="skill-bar">
+                <div
+                  class="skill-progress"
+                  data-width="88"
+                  style="width: 0%"
+                ></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>React.js</span><span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div
+                  class="skill-progress"
+                  data-width="85"
+                  style="width: 0%"
+                ></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Bootstrap</span><span>82%</span>
+              </div>
+              <div class="skill-bar">
+                <div
+                  class="skill-progress"
+                  data-width="82"
+                  style="width: 0%"
+                ></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Tailwind CSS</span><span>80%</span>
+              </div>
+              <div class="skill-bar">
+                <div
+                  class="skill-progress"
+                  data-width="80"
+                  style="width: 0%"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Programming -->
+        <div class="skill-category reveal" data-delay="200">
+          <div class="category-header">
+            <div class="category-icon"><i class="fas fa-terminal"></i></div>
+            <h3 class="category-title">Programming</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info"><span>Python</span><span>88%</span></div>
+              <div class="skill-bar">
+                <div
+                  class="skill-progress"
+                  data-width="88"
+                  style="width: 0%"
+                ></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Java</span><span>80%</span></div>
+              <div class="skill-bar">
+                <div
+                  class="skill-progress"
+                  data-width="80"
+                  style="width: 0%"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Database Technologies -->
+        <div class="skill-category reveal" data-delay="300">
+          <div class="category-header">
+            <div class="category-icon"><i class="fas fa-database"></i></div>
+            <h3 class="category-title">Database Technologies</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info"><span>MySQL</span><span>82%</span></div>
+              <div class="skill-bar">
+                <div
+                  class="skill-progress"
+                  data-width="82"
+                  style="width: 0%"
+                ></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>MongoDB</span><span>78%</span></div>
+              <div class="skill-bar">
+                <div
+                  class="skill-progress"
+                  data-width="78"
+                  style="width: 0%"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data Analytics -->
+        <div class="skill-category reveal" data-delay="100">
+          <div class="category-header">
+            <div class="category-icon"><i class="fas fa-chart-bar"></i></div>
+            <h3 class="category-title">Data Analytics</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info"><span>Excel</span><span>85%</span></div>
+              <div class="skill-bar">
+                <div
+                  class="skill-progress"
+                  data-width="85"
+                  style="width: 0%"
+                ></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Power BI</span><span>80%</span>
+              </div>
+              <div class="skill-bar">
+                <div
+                  class="skill-progress"
+                  data-width="80"
+                  style="width: 0%"
+                ></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Pandas</span><span>82%</span></div>
+              <div class="skill-bar">
+                <div
+                  class="skill-progress"
+                  data-width="82"
+                  style="width: 0%"
+                ></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Data Analysis</span><span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div
+                  class="skill-progress"
+                  data-width="85"
+                  style="width: 0%"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools & Platforms -->
+        <div class="skill-category reveal" data-delay="200">
+          <div class="category-header">
+            <div class="category-icon"><i class="fas fa-tools"></i></div>
+            <h3 class="category-title">Tools & Platforms</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info"><span>Git</span><span>85%</span></div>
+              <div class="skill-bar">
+                <div
+                  class="skill-progress"
+                  data-width="85"
+                  style="width: 0%"
+                ></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>GitHub</span><span>90%</span></div>
+              <div class="skill-bar">
+                <div
+                  class="skill-progress"
+                  data-width="90"
+                  style="width: 0%"
+                ></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>VS Code</span><span>92%</span></div>
+              <div class="skill-bar">
+                <div
+                  class="skill-progress"
+                  data-width="92"
+                  style="width: 0%"
+                ></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Jupyter Notebook</span><span>80%</span>
+              </div>
+              <div class="skill-bar">
+                <div
+                  class="skill-progress"
+                  data-width="80"
+                  style="width: 0%"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professional Skills -->
+        <div class="skill-category reveal" data-delay="300">
+          <div class="category-header">
+            <div class="category-icon"><i class="fas fa-users"></i></div>
+            <h3 class="category-title">Professional Skills</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Communication</span><span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div
+                  class="skill-progress"
+                  data-width="90"
+                  style="width: 0%"
+                ></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Problem Solving</span><span>88%</span>
+              </div>
+              <div class="skill-bar">
+                <div
+                  class="skill-progress"
+                  data-width="88"
+                  style="width: 0%"
+                ></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Market Research</span><span>80%</span>
+              </div>
+              <div class="skill-bar">
+                <div
+                  class="skill-progress"
+                  data-width="80"
+                  style="width: 0%"
+                ></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Team Collaboration</span><span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div
+                  class="skill-progress"
+                  data-width="90"
+                  style="width: 0%"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CERTIFICATIONS SECTION ==================== -->
+    <section id="certifications" class="certifications">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Credentials</span>
+        <h2 class="section-title">Certifications</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="certifications-grid">
+
+        <div class="cert-card reveal" data-delay="100">
+          <div class="cert-image">
+            <img
+              src="certificates/python.jpg"
+              alt="Python for Data Science – NPTEL"
+            />
+          </div>
+          <div class="cert-content">
+            <h3 class="cert-title">Python for Data Science</h3>
+            <span class="cert-issuer"><i class="fas fa-award"></i> NPTEL</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal" data-delay="200">
+          <div class="cert-image">
+            <img
+              src="certificates/big4.jpg"
+              alt="Data Analyst – Big 4 Ready Certification"
+            />
+          </div>
+          <div class="cert-content">
+            <h3 class="cert-title">Data Analyst – Big 4 Ready</h3>
+            <span class="cert-issuer"
+              ><i class="fas fa-award"></i> Big 4 Certification</span
+            >
+          </div>
+        </div>
+
+         <div class="cert-card reveal" data-delay="200">
+          <div class="cert-image">
+            <img
+              src="certificates/academic.jpg"
+              alt="Academic merit Certificate"
+            />
+          </div>
+          <div class="cert-content">
+            <h3 class="cert-title">Academic Merit Certificate</h3>
+            <span class="cert-issuer"
+              ><i class="fas fa-award"></i>Buddha Institute of Technology</span
+            >
+          </div>
+        </div>
+
+         <div class="cert-card reveal" data-delay="200">
+          <div class="cert-image">
+            <img
+              src="certificates/a.jpg"
+              alt="Completion certificate"
+            />
+          </div>
+          <div class="cert-content">
+            <h3 class="cert-title">Data Science</h3>
+            <span class="cert-issuer"
+              ><i class="fas fa-award"></i>Infosys Springboard</span
+            >
+          </div>
+        </div>
+
+         <div class="cert-card reveal" data-delay="200">
+          <div class="cert-image">
+            <img
+              src="certificates/h.jpg"
+              alt="Completion certificate"
+            />
+          </div>
+          <div class="cert-content">
+            <h3 class="cert-title">Artificial Intelligence</h3>
+            <span class="cert-issuer"
+              ><i class="fas fa-award"></i>Infosys Springboard</span
+            >
+          </div>
+        </div>
+
+         <div class="cert-card reveal" data-delay="200">
+          <div class="cert-image">
+            <img
+              src="certificates/d.jpg"
+              alt="Completion certificate"
+            />
+          </div>
+          <div class="cert-content">
+            <h3 class="cert-title">Deep Learning</h3>
+            <span class="cert-issuer"
+              ><i class="fas fa-award"></i>Infosys Springboard</span
+            >
+          </div>
+        </div>
+        
+        <div class="cert-card reveal" data-delay="300">
+          <div class="cert-image">
+            <img
+              src="certificates/data_analytics.png"
+              alt="Deloitte Data Analytics Job Simulation"
+            />
+          </div>
+          <div class="cert-content">
+            <h3 class="cert-title">Deloitte Data Analytics Simulation</h3>
+            <span class="cert-issuer"><i class="fas fa-award"></i> Forage</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal" data-delay="400">
+          <div class="cert-image">
+            <img
+              src="certificates/ieee.jpg"
+              alt="IEEE International Conference Volunteer Certificate"
+            />
+          </div>
+          <div class="cert-content">
+            <h3 class="cert-title">IEEE Conference Volunteer</h3>
+            <span class="cert-issuer"><i class="fas fa-award"></i> IEEE</span>
+          </div>
+        </div>
+
+            <div class="cert-card reveal" data-delay="200">
+          <div class="cert-image">
+            <img
+              src="certificates/f.jpg"
+              alt="Completion certificate"
+            />
+          </div>
+          <div class="cert-content">
+            <h3 class="cert-title">Natural Language Processing{NLP}</h3>
+            <span class="cert-issuer"
+              ><i class="fas fa-award"></i>Infosys Springboard</span
+            >
+          </div>
+        </div>
+
+          <div class="cert-card reveal" data-delay="200">
+          <div class="cert-image">
+            <img
+              src="certificates/i.jpg"
+              alt="Completion certificate"
+            />
+          </div>
+          <div class="cert-content">
+            <h3 class="cert-title">Prompt Engineering</h3>
+            <span class="cert-issuer"
+              ><i class="fas fa-award"></i>Infosys Springboard</span
+            >
+          </div>
+        </div>
+
+          <div class="cert-card reveal" data-delay="200">
+          <div class="cert-image">
+            <img
+              src="certificates/traninig.jpg"
+              alt="Traning Completion certificate"
+            />
+          </div>
+          <div class="cert-content">
+            <h3 class="cert-title">Data Analytics Training</h3>
+            <span class="cert-issuer"
+              ><i class="fas fa-award"></i>Internship Studio</span
+            >
+          </div>
+        </div>
+
+          <div class="cert-card reveal" data-delay="200">
+          <div class="cert-image">
+            <img
+              src="certificates/hackindia.jpg"
+              alt="Completion certificate"
+            />
+          </div>
+          <div class="cert-content">
+            <h3 class="cert-title">HackIndia 2026 India's Biggest Web3 and AI hackathon</h3>
+            <span class="cert-issuer"
+              ><i class="fas fa-award"></i>HackIndia</span
+            >
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== ACHIEVEMENTS SECTION ==================== -->
+    <section id="achievements" class="achievements">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Recognition</span>
+        <h2 class="section-title">Achievements</h2>
+        <div class="section-line"></div>
+        <p class="achievements-subheading">
+          A collection of academic milestones, certifications, leadership
+          experiences, and professional accomplishments that reflect my
+          continuous growth journey.
+        </p>
+      </div>
+      <div class="achievements-grid">
+        <div class="achievement-card reveal" data-delay="100">
+          <div class="achievement-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>Academic Merit Award</h3>
+            <div class="achievement-meta">
+              <span><i class="fas fa-calendar"></i> 2024</span>
+              <span
+                ><i class="fas fa-building"></i> Buddha Institute of
+                Technology</span
+              >
+            </div>
+            <p>
+              Awarded for outstanding academic performance and excellence in
+              Computer Science studies.
+            </p>
+          </div>
+        </div>
+        <div class="achievement-card reveal" data-delay="200">
+          <div class="achievement-icon">
+            <i class="fas fa-handshake"></i>
+          </div>
+          <div class="achievement-content">
+            <h3>IEEE International Conference Volunteer</h3>
+            <div class="achievement-meta">
+              <span><i class="fas fa-calendar"></i> 2025</span>
+              <span><i class="fas fa-building"></i> IEEE Student Branch</span>
+            </div>
+            <p>
+              Successfully volunteered and contributed during the IEEE
+              International Conference, supporting event operations and
+              coordination.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="achievement-gallery reveal" data-delay="300">
+        <div class="gallery-item">
+          <img src="archivement/award1.jpg" alt="Academic Merit Award" />
+        </div>
+        <div class="gallery-item">
+          <img src="archivement/ieee1.jpg" alt="IEEE Conference" />
+        </div>
+        <div class="gallery-item">
+          <img src="archivement/hackindia1.jpg" alt="Hack India" />
+        </div>
+        <div class="gallery-item">
+          <img src="archivement/hi2.jpg" alt="Achievement" />
+        </div>
+        <div class="gallery-item">
+          <img src="archivement/hi3.jpg" alt="Achievement" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section id="contact" class="contact">
+      <div class="section-header reveal">
+        <span class="section-subtitle">Reach Out</span>
+        <h2 class="section-title">Contact Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info reveal">
+          <h3 class="contact-heading">
+            Let's Build Something Amazing Together
+          </h3>
+          <p class="contact-tagline">
+            Passionate about transforming ideas into responsive, user-friendly,
+            and impactful digital experiences.
+          </p>
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-text">
+                <span class="contact-label">Email</span>
+                <a href="mailto:simranjaiswal801@gmail.com"
+                  >simranjaiswal801@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <div class="contact-text">
+                <span class="contact-label">Phone</span>
+                <a href="tel:+919559492325">+91 9559492325</a>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <span class="contact-label">Location</span>
+                <span>Gorakhpur, Uttar Pradesh, India</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a
+              href="https://github.com/simranjaiswal801"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/simran-jaiswal-948791341/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-link"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a
+              href="mailto:simranjaiswal801@gmail.com"
+              class="social-link"
+              aria-label="Email"
+            >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form-wrapper reveal" data-delay="200">
+          <form id="contact-form">
+            <div class="form-group">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Subject"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-submit">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <a href="#home" class="footer-logo">SJ</a>
+            <p>Building digital experiences with passion and purpose.</p>
+          </div>
+          
+        
+          <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-socials">
+            <h4>Connect</h4>
+            <div class="footer-social-links">
+              <a
+                href="https://github.com/simranjaiswal801"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/simran-jaiswal-948791341/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="mailto:simranjaiswal801@gmail.com" aria-label="Email"
+                ><i class="fas fa-envelope"></i
+              ></a>
+          
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="footer-copyright">
+            &copy; 2025 Simran Jaiswal. All rights reserved. Crafted with
+            <i class="fas fa-heart" style="color: #d4a843"></i>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ==================== SCROLL TO TOP ==================== -->
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- ==================== LIGHTBOX MODAL ==================== -->
+    <div class="lightbox-modal" id="lightboxModal">
+      <div class="lightbox-overlay"></div>
+      <div class="lightbox-content">
+        <button class="lightbox-close" aria-label="Close lightbox">
+          &times;
+        </button>
+        <img src="" alt="Certificate" id="lightboxImage" />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
