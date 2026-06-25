@@ -118,7 +118,7 @@ This portfolio was created to:
 
 ## 📬 Contact Me
 
-📧 Email: [your-email@example.com](mailto:your-email@example.com)
+📧 Email: simranjaiswal801@gmail.com(mailto:your-email@example.com)
 
 💼 LinkedIn:
 https://www.linkedin.com/in/simran-jaiswal-948791341/
