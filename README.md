@@ -26,7 +26,8 @@ https://www.linkedin.com/in/simran-jaiswal-948791341/
 
 ### Home Page
 
-<img width="100%" alt="Portfolio Screenshot" src="assets/portfolio-preview.png">
+<img width="1920" height="923" alt="image" src="https://github.com/user-attachments/assets/ad921e1e-7057-453f-b7ed-0a8e5f559fd4" />
+
 
 > Replace the image above with your actual portfolio screenshot.
 
